@@ -1,0 +1,130 @@
+body {
+  background-image: url("https://media.freestocktextures.com/cache/55/74/557491c489317c2a5bb5604fc368d33e.jpg");
+  background-size: contain;
+  text-align: center;
+}
+
+blockquote {
+  font-size: 130px%;
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+  border-bottom: 1px solid #665544;
+  width: auto;
+}
+
+#header {
+  color: red;
+  font-family: cursive;
+  font-size: 100px;
+  background-image: url("http://images.freecreatives.com/wp-content/uploads/2015/04/website-background-plain-yellow.jpg");
+  background-size: cover;
+  border-radius: 1px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 1px;
+  width:100%;
+  z-index: 10px;
+
+
+}
+
+a {
+  color: blue;
+  text-align: left;
+  display: grid;
+}
+
+li {
+  margin-right: 10px;
+
+}
+
+ul {
+  border: solid black 3px;
+}
+
+h1 {
+  color: #1892ee;
+  font-family: Gill Sans;
+  font-size: 70px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-family: Gill Sans;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-family: Gill Sans;
+  font-size: 40px;
+  text-align: center;
+}
+
+h4 {
+  color: white;
+  font-family: Gill Sans;
+  font-size: 40px;
+  text-align: center;
+}
+
+h5 {
+  color: white;
+  font-family: Gill Sans;
+  font-size: 40px;
+  text-align: center;
+}
+
+h6 {
+  color: white;
+  font-family: Gill Sans;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: Noteworthy;
+  font-size: 27px;
+  text-align: center;
+}
+
+p1 {
+  color: black;
+  font-family: Noteworthy;
+  font-size: 27px;
+  text-align: center;
+  text-shadow: 20px;
+}
+
+p2 {
+  color: black;
+  font-family: Noteworthy;
+  font-size: 17px;
+
+}
+
+img {
+  width: 200px;
+  border-radius: 20px;
+  background-color: white;
+  background-size: 50px;
+  z-index: 10px;
+}
+
+iframe {
+  border-radius: 20px;
+}
+
+#footer {
+  font-family: Times;
+}
+
+button {
+  color: black;
+}
