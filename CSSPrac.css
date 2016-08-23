@@ -14,20 +14,17 @@ blockquote {
 
 #header {
   color: red;
-  font-family: cursive;
+  font-family: SignPainter;
   font-size: 100px;
   background-image: url("http://images.freecreatives.com/wp-content/uploads/2015/04/website-background-plain-yellow.jpg");
   background-size: cover;
-  border-radius: 1px;
-  position: fixed;
+  border-radius: 10px;
   top: 0px;
   left: 0px;
   margin: 0px;
   padding: 1px;
   width:100%;
   z-index: 10px;
-
-
 }
 
 a {
@@ -36,20 +33,15 @@ a {
   display: grid;
 }
 
-li {
-  margin-right: 10px;
-
-}
-
 ul {
-  border: solid black 3px;
+  font-size: 20px;
+  font-family: Gill Sans;
 }
 
 h1 {
   color: #1892ee;
-  font-family: Gill Sans;
-  font-size: 70px;
-  text-align: center;
+  font-family: SignPainter;
+  font-size: 100px;
 }
 
 h2 {
@@ -60,10 +52,11 @@ h2 {
 }
 
 h3 {
-  color: white;
-  font-family: Gill Sans;
-  font-size: 40px;
+  color: #1C60FD;
+  font-family: SignPainter;
+  font-size: 50px;
   text-align: center;
+  text-decoration: underline;
 }
 
 h4 {
@@ -127,4 +120,12 @@ iframe {
 
 button {
   color: black;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  spacing: 5px;
+  border: 5px solid black;
 }
