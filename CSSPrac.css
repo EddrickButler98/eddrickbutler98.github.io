@@ -25,6 +25,7 @@ blockquote {
   padding: 1px;
   width:100%;
   z-index: 10px;
+  text-shadow: 5px;
 }
 
 a {
