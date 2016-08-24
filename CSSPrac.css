@@ -129,3 +129,7 @@ table {
   spacing: 5px;
   border: 5px solid black;
 }
+
+div {
+  text-shadow: 5px;
+}
