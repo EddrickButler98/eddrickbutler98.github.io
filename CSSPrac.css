@@ -14,19 +14,6 @@ h1 {
   font-size: 100px;
 }
 
-h2 {
-  color: white;
-  font-family: Gill Sans;
-  font-size: 40px;
-  text-align: center;
-}
-
-h3 {
-  color: #1C60FD;
-  font-family: SignPainter;
-  font-size: 50px;
-  text-align: center;
-  text-decoration: underline;
 }
 
 h4 {
@@ -90,6 +77,39 @@ table {
   border: 5px solid black;
 }
 
+section {
+  background:white;
+  padding: 8rem 15rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.photoContainer {
+  position: relative;
+  z-index: 1;
+}
+
+.wrapper {
+  color: #000;
+  text-shadow: none;
+}
+
+.hero {
+  background-image: url("http://tec-engg.com/wp-content/uploads/2012/05/Travancore-Engineering-College-x.jpg");
+  background-size: cover;
+  height: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.middle {
+  background-image: url("http://www.kildonan.org/uploaded/Independent_Project/College_Students.jpg");
+}
+
+.lower {
+  background-image: url("http://i.huffpost.com/gen/1212902/thumbs/o-POINTING-570.jpg?1");
+}
 
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
