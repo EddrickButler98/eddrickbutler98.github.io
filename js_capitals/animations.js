@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    swal("Before We Begin...", "All State Capitals MUST BE SPELLED CORRECTLY with CORRECT CAPITALIZATION; YOU ANSWER COULD BE WRONG", "warning");
+    swal("Instructions", "All State Capitals Must Be capitalized and spelled correctly; TRY TO GET TO 50!!; ", "warning");
     $("#a1").css("color", "#FF0008").fadeIn(5000);
     $("#a2").css("color", "#1115FF").fadeIn(5000);
     $("#a3").css("color", "#FFCF00").fadeIn(5000);
@@ -70,39 +70,41 @@ $(document).ready(function() {
 
     // Button, State Picture, and Input Field for the State of Alaska
     $("#button0").click(function() {
-        var pointAlaska = 50;
         if ($("input").val() == "Juneau" && "juneau") {
-            $("#score").append(pointAlaska);
             $.playSound('mp3_capitals/correct');
             swal("Correct", "Continue To the Next One", "success");
             $("#space0").fadeOut();
             $("#space1").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value); 
+
         } else {
             $.playSound('mp3_capitals/TPIR');
             swal("Incorrect", "Try Again", "error");
-            $("#score").remove(pointAlaska);
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
 
         if ($("input").val() == false ){
             swal("The Text Field Has No Data In It!", "", "warning");
         }
-
-
-        // Button, State Picture, and Input Field for the State of Colorado
     });
+
+     // Button, State Picture, and Input Field for the State of Colorado
     $("#button1").click(function() {
-        var pointColorado = 25;
-        var pointTotal = pointColorado + pointAlaska;
         if ($("#input1").val() == "Denver") {
-            $("#score").remove()
-            $("#score").append(pointTotal);
             $.playSound('mp3_capitals/correct');
             swal("Colorect", "Let's Move To Denver", "success");
             $("#space1").fadeOut();
             $("#space2").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/WOF');
             swal("Nope", "Go Again", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -113,9 +115,14 @@ $(document).ready(function() {
             swal("Excellent", "Lets Fly To Atlanta", "success");
             $("#space2").fadeOut();
             $("#space3").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/fail')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -126,9 +133,14 @@ $(document).ready(function() {
             swal("Hooray", "Goin' Down South!", "success");
             $("#space3").fadeOut();
             $("#space4").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -139,9 +151,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space4").fadeOut();
             $("#space5").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/WOF')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -152,9 +169,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space5").fadeOut();
             $("#space6").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/fail')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -165,9 +187,14 @@ $(document).ready(function() {
             swal("Nice!", " ", "success");
             $("#space6").fadeOut();
             $("#space7").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -178,6 +205,9 @@ $(document).ready(function() {
             swal("Spectacular!"," ", "success");
             $("#space7").fadeOut();
             $("#space8").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/WOF')
             swal("NO, NO, NO!", "Wrong Answer, Doc!", "error");
@@ -191,9 +221,14 @@ $(document).ready(function() {
             swal("Tremendous Job!"," ", "success");
             $("#space8").fadeOut();
             $("#space9").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/fail')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -204,9 +239,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space9").fadeOut();
             $("#space10").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/WOF')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -217,9 +257,14 @@ $(document).ready(function() {
             swal("Cool!"," ", "success");
             $("#space10").fadeOut();
             $("#space11").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/fail')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -230,9 +275,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space11").fadeOut();
             $("#space12").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -243,9 +293,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space12").fadeOut();
             $("#space13").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/WOF')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -256,9 +311,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space13").fadeOut();
             $("#space14").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/fail')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -269,9 +329,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space14").fadeOut();
             $("#space15").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
         } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -282,9 +347,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space15").fadeOut();
             $("#space16").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -295,9 +365,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space16").fadeOut();
             $("#space17").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -308,9 +383,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space17").fadeOut();
             $("#space18").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -321,9 +401,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space18").fadeOut();
             $("#space19").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -334,9 +419,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space19").fadeOut();
             $("#space20").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -347,9 +437,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space20").fadeOut();
             $("#space21").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -360,9 +455,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space21").fadeOut();
             $("#space22").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -373,9 +473,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space22").fadeOut();
             $("#space23").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -386,9 +491,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space23").fadeOut();
             $("#space24").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -399,9 +509,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space24").fadeOut();
             $("#space25").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -412,9 +527,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space25").fadeOut();
             $("#space26").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -425,9 +545,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space26").fadeOut();
             $("#space27").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -438,9 +563,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space27").fadeOut();
             $("#space28").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -451,9 +581,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space28").fadeOut();
             $("#space29").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -464,9 +599,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space29").fadeOut();
             $("#space30").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -477,9 +617,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space30").fadeOut();
             $("#space31").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -490,9 +635,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space31").fadeOut();
             $("#space32").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -503,9 +653,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space32").fadeOut();
             $("#space33").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -516,9 +671,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space33").fadeOut();
             $("#space34").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -529,9 +689,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space34").fadeOut();
             $("#space35").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -542,9 +707,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space35").fadeOut();
             $("#space36").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -555,9 +725,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space36").fadeOut();
             $("#space37").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -568,9 +743,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space37").fadeOut();
             $("#space38").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -581,9 +761,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space38").fadeOut();
             $("#space39").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -594,9 +779,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space39").fadeOut();
             $("#space40").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -607,9 +797,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space40").fadeOut();
             $("#space41").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -620,9 +815,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space41").fadeOut();
             $("#space42").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -633,9 +833,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space42").fadeOut();
             $("#space43").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -646,9 +851,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space43").fadeOut();
             $("#space44").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -659,9 +869,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space44").fadeOut();
             $("#space45").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -672,9 +887,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space45").fadeOut();
             $("#space46").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -684,9 +904,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space46").fadeOut();
             $("#space47").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -696,9 +921,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space47").fadeOut();
             $("#space48").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -708,9 +938,14 @@ $(document).ready(function() {
             swal("Awesome"," ", "success");
             $("#space48").fadeOut();
             $("#space49").fadeIn(3000);
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);  
+
          } else {
             $.playSound('mp3_capitals/TPIR')
             swal("Ehhhh!", "Wrong Answer, Doc!", "error");
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value); 
         }
     });
 
@@ -728,7 +963,7 @@ $(document).ready(function() {
         swal({
                 title: "Are you sure?",
                 text: "This page will be refreshed and you will lose your progress!",
-                type: "warning",
+                type: "error",
                 showCancelButton: true,
                 confirmButtonColor: "#DD6B55",
                 confirmButtonText: "Yes, Leave",
@@ -740,7 +975,412 @@ $(document).ready(function() {
     });
 
     $("#hint").click(function() {
-        swal("Hint:", "Nickname: 'The Last Frontier'", "warning");
+        swal({
+            title: "The State of Alaska", 
+            text: "Nickname: The Last Frontier State", 
+            imageUrl: "img_capitals/flags/alaska.png"
+        });
+    });
+
+    $("#hint1").click(function() {
+        swal({
+            title: "The State of Colorado", 
+            text: "Nickname: The Centennial State", 
+            imageUrl: "img_capitals/flags/colorado.jpg"
+        });
+    });
+
+    $("#hint2").click(function() {
+        swal({
+            title: "The State of Georgia", 
+            text: "Nickname: The Empire State of the South, The Peach State", 
+            imageUrl: "img_capitals/flags/georgia.png"
+        });
+    });
+
+    $("#hint3").click(function() {
+        swal({
+            title: "The State of Alabama", 
+            text: "Nickname: The Yellohammer State, The Cotton State, Heart of Dixie", 
+            imageUrl: "img_capitals/flags/alabama.jpg"
+        });
+    });
+
+    $("#hint4").click(function() {
+        swal({
+            title: "The State of Kentucky", 
+            text: "Nickname: The Bluegrass State", 
+            imageUrl: "img_capitals/flags/kentucky.png"
+        });
+    });
+
+    $("#hint5").click(function() {
+        swal({
+            title: "The State of Florida", 
+            text: "Nickname: The Sunshine State", 
+            imageUrl: "img_capitals/flags/florida.jpg"
+        });
+    });
+
+    $("#hint6").click(function() {
+        swal({
+            title: "The State of Connecticut", 
+            text: "Nickname: The Nutmeg State, The Constitution State,",
+            text: "Extra Nicknames: The Land of Steady Habits, The Provisions State", 
+            imageUrl: "img_capitals/flags/connecticut.png"
+        });
+    });
+
+    $("#hint7").click(function() {
+        swal({
+            title: "The State of Maine", 
+            text: "Nickname: The Pine Tree State", 
+            imageUrl: "img_capitals/flags/maine.gif"
+        });
+    });
+
+    $("#hint8").click(function() {
+        swal({
+            title: "The State of Louisiana", 
+            text: "Nickname: The Sportsman's Paradise, The Sugar State",
+            text: "Extra Nicknames: The Creole State, The Child of The Mississippi",
+            text: "Extra Nickname: The Bayou State",
+            imageUrl: "img_capitals/flags/louisiana.jpeg"
+        });
+    });
+
+    $("#hint9").click(function() {
+        swal({
+            title: "The State of Wyoming", 
+            text: "Nickname: The Cowboy State, The Big Wyoming State",
+            text: "Extra Nickname: The Equality State",
+            imageUrl: "img_capitals/flags/wyoming.jpg"
+        });
+    });
+
+    $("#hint10").click(function() {
+        swal({
+            title: "The State of Maryland", 
+            text: "Nickname: The Old Line State, The Free State, Little America", 
+            imageUrl: "img_capitals/flags/maryland.jpg"
+        });
+    });
+
+    $("#hint11").click(function() {
+        swal({
+            title: "The State of Vermont", 
+            text: "Nickname: The Green Mountain State", 
+            imageUrl: "img_capitals/flags/vermont.jpg"
+        });
+    });
+
+    $("#hint12").click(function() {
+        swal({
+            title: "The State of Arizona", 
+            text: "Nickname: The Grand Canyon State, The Copper State", 
+            imageUrl: "img_capitals/flags/arizona.png"
+        });
+    });
+
+    $("#hint13").click(function() {
+        swal({
+            title: "The State of Mississippi", 
+            text: "Nickname: The Magnolia State, The Hospitality State", 
+            imageUrl: "img_capitals/flags/mississippi.png"
+        });
+    });
+
+    $("#hint14").click(function() {
+        swal({
+            title: "The State of Hawaii", 
+            text: "Nickname: The Islands of Aloha, Paradise, The Aloha State", 
+            imageUrl: "img_capitals/flags/hawaii.jpg"
+        });
+    });
+
+    $("#hint15").click(function() {
+        swal({
+            title: "The State of Missouri", 
+            text: "Nickname: The Show-Me State", 
+            imageUrl: "img_capitals/flags/missouri.jpg"
+        });
+    });
+
+    $("#hint16").click(function() {
+        swal({
+            title: "The State of Texas", 
+            text: "Nickname: The Lone Star State", 
+            imageUrl: "img_capitals/flags/texas.jpg"
+        });
+    });
+
+    $("#hint17").click(function() {
+        swal({
+            title: "The State of Ohio", 
+            text: "Nickname: The Buckeye State, The Heart of It All",
+            text: "Extra Nicknames: The Mother of Presidents, The Birthplace of Aviation", 
+            imageUrl: "img_capitals/flags/ohio.png"
+        });
+    });
+
+    $("#hint18").click(function() {
+        swal({
+            title: "The State of Montana", 
+            text: "Nickname: The Big Sky County, The Treasure State", 
+            imageUrl: "img_capitals/flags/montana.jpg"
+        });
+    });
+
+    $("#hint19").click(function() {
+        swal({
+            title: "The State of Arkansas", 
+            text: "Nickname: The Natural State, The Land Of Opportunity", 
+            imageUrl: "img_capitals/flags/arkansas.jpg"
+        });
+    });
+
+    $("#hint20").click(function() {
+        swal({
+            title: "The State of Oklahoma", 
+            text: "Nickname: The Sooner State", 
+            imageUrl: "img_capitals/flags/oklahoma.png"
+        });
+    });
+
+    $("#hint21").click(function() {
+        swal({
+            title: "The State of Washington", 
+            text: "Nickname: The Evergreen State", 
+            imageUrl: "img_capitals/flags/washington.gif"
+        });
+    });
+
+    $("#hint22").click(function() {
+        swal({
+            title: "The State of Minnesota", 
+            text: "Nickname: The Gopher State, The Land of 10,000 Lakes",
+            text: "Extra Nicknames: The North Star State", 
+            imageUrl: "img_capitals/flags/minnesota.jpg"
+        });
+    });
+
+    $("#hint23").click(function() {
+        swal({
+            title: "The State of South Dakota", 
+            text: "Nickname: The Mount Rushmore State", 
+            imageUrl: "img_capitals/flags/south_dakota.gif"
+        });
+    });
+
+    $("#hint24").click(function() {
+        swal({
+            title: "The State of Idaho", 
+            text: "Nickname: The Gem State", 
+            imageUrl: "img_capitals/flags/idaho.jpg"
+        });
+    });
+
+    $("#hint25").click(function() {
+        swal({
+            title: "The State of Nebraska", 
+            text: "Nickname: The Cornhuster State", 
+            imageUrl: "img_capitals/flags/nebraska.png"
+        });
+    });
+
+    $("#hint26").click(function() {
+        swal({
+            title: "The State of Utah", 
+            text: "Nickname: The Beehive State", 
+            imageUrl: "img_capitals/flags/utah.gif"
+        });
+    });
+
+    $("#hint27").click(function() {
+        swal({
+            title: "The State of Tennessee", 
+            text: "Nickname: The Volunteer State", 
+            imageUrl: "img_capitals/flags/tennessee.jpg"
+        });
+    });
+
+    $("#hint28").click(function() {
+        swal({
+            title: "The State of Massachusetts", 
+            text: "Nickname: The Bay State, The Codfish State, The Old Colony State", 
+            imageUrl: "img_capitals/flags/massachusetts.jpg"
+        });
+    });
+
+    $("#hint29").click(function() {
+        swal({
+            title: "The State of West Virginia", 
+            text: "Nickname: The Mountain State", 
+            imageUrl: "img_capitals/flags/west_virginia.png"
+        });
+    });
+
+    $("#hint30").click(function() {
+        swal({
+            title: "The State of Delaware", 
+            text: "Nickname: The Diamond State, The Blue Hen State",
+            text: "Extra Nicknames: The Small Wonder State, The First State", 
+            imageUrl: "img_capitals/flags/delaware.jpg"
+        });
+    });
+
+    $("#hint31").click(function() {
+        swal({
+            title: "The State of Iowa", 
+            text: "Nickname: The Hawkeye State", 
+            imageUrl: "img_capitals/flags/iowa.jpg"
+        });
+    });
+
+    $("#hint32").click(function() {
+        swal({
+            title: "The State of Nevada", 
+            text: "Nickname: The Sagebrush State, The Battle Born State, The Silver State", 
+            imageUrl: "img_capitals/flags/nevada.jpg"
+        });
+    });
+
+    $("#hint33").click(function() {
+        swal({
+            title: "The State of Pennsylvania", 
+            text: "Nickname: The Keystone State, The Oil State, The State of Independence",
+            text: "Extra Nicknames: The Coal State, The Quaker State",
+            imageUrl: "img_capitals/flags/"
+        });
+    });
+
+    $("#hint34").click(function() {
+        swal({
+            title: "The State of Kansas", 
+            text: "Nickname: The Sunflower State, The Wheat State", 
+            imageUrl: "img_capitals/flags/kansas.png"
+        });
+    });
+
+    $("#hint35").click(function() {
+        swal({
+            title: "The State of California", 
+            text: "Nickname: The Golden State", 
+            imageUrl: "img_capitals/flags/california.jpg"
+        });
+    });
+
+    $("#hint36").click(function() {
+        swal({
+            title: "The State of Michigan", 
+            text: "Nickname: The Water Winter Wonderland State, The Great Lake State",
+            text: "Extra Nicknames: The Wolverine State", 
+            imageUrl: "img_capitals/flags/michigan.png"
+        });
+    });
+
+    $("#hint37").click(function() {
+        swal({
+            title: "The State of Illinois", 
+            text: "Nickname: The Prairie State, The Land of Lincoln", 
+            imageUrl: "img_capitals/flags/illinois.jpg"
+        });
+    });
+
+    $("#hint38").click(function() {
+        swal({
+            title: "The State of Virginia", 
+            text: "Nickname: The Old Dominian; The Mother of Presidents, The Mother of States", 
+            imageUrl: "img_capitals/flags/virginia.gif"
+        });
+    });
+
+    $("#hint39").click(function() {
+        swal({
+            title: "The State of Rhode Island", 
+            text: "Nickname: The Plantation State, Little Rhody, The Ocean State", 
+            imageUrl: "img_capitals/flags/rhode_island.jpg"
+        });
+    });
+
+    $("#hint40").click(function() {
+        swal({
+            title: "The State of Oregon", 
+            text: "Nickname: The Beaver State", 
+            imageUrl: "img_capitals/flags/oregon.gif"
+        });
+    });
+
+    $("#hint41").click(function() {
+        swal({
+            title: "The State of Indiana", 
+            text: "Nickname: The Hoosier State", 
+            imageUrl: "img_capitals/flags/indiana.png"
+        });
+    });
+
+    $("#hint42").click(function() {
+        swal({
+            title: "The State of New Jersey", 
+            text: "Nickname: The Garden State", 
+            imageUrl: "img_capitals/flags/new_jersey.jpg"
+        });
+    });
+
+    $("#hint43").click(function() {
+        swal({
+            title: "The State of Wisconsin", 
+            text: "Nickname: The Badger State, America's Dairyland", 
+            imageUrl: "img_capitals/flags/wisconsin.gif"
+        });
+    });
+
+    $("#hint44").click(function() {
+        swal({
+            title: "The State of North Carolina", 
+            text: "Nickname: The Tar Heel State, The Old North State", 
+            imageUrl: "img_capitals/flags/north_carolina.png"
+        });
+    });
+
+    $("#hint45").click(function() {
+        swal({
+            title: "The State of New Hampshire", 
+            text: "Nickname: The Granite State", 
+            imageUrl: "img_capitals/flags/new_hampshire.gif"
+        });
+    });
+
+    $("#hint46").click(function() {
+        swal({
+            title: "The State of New York", 
+            text: "Nickname: The Empire State", 
+            imageUrl: "img_capitals/flags/new_york.jpg"
+        });
+    });
+
+    $("#hint47").click(function() {
+        swal({
+            title: "The State of South Carolina", 
+            text: "Nickname: The Palmetto State", 
+            imageUrl: "img_capitals/flags/south_carolina.jpg"
+        });
+    });
+
+    $("#hint48").click(function() {
+        swal({
+            title: "The State of North Dakota", 
+            text: "Nickname: The Peace Garden State, The Roughrider State, Heaven", 
+            imageUrl: "img_capitals/flags/north_dakota.gif"
+        });
+    });
+
+    $("#hint49").click(function() {
+        swal({
+            title: "The State of New Mexico", 
+            text: "Nickname: The Land of Enchantment", 
+            imageUrl: "img_capitals/flags/new_mexico.png"
+        });
     });
 
 });
