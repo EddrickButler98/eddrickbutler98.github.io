@@ -39,10 +39,48 @@
 <header id="header">
   <div class="intro">
     <div class="container">
+    <style>
+.parallax { 
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax"></div>
       <div class="row">
         <div class="intro-text">
           <h1>Hello, I'm <span class="name">Eddrick C. Butler</span></h1>
           <p>Musician &amp; Beginner Developer</p>
+          <script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nhour=d.getHours(),nmin=d.getMinutes(),ap;
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+
+document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+ap+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<center style="font-size: 70px;">It's<div id="clockbox" style="font-size: 80px;"></div></center>
           <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
       </div>
     </div>

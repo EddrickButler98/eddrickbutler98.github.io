@@ -342,7 +342,7 @@ $(document).ready(function() {
 
     // Button, State Picture, and Input Field for the State of Missouri
     $("#button15").click(function() {
-        if ($("#input15").val() == "St. Louis") {
+        if ($("#input15").val() == "Jefferson City") {
             $.playSound('mp3_capitals/correct');
             swal("Awesome"," ", "success");
             $("#space15").fadeOut();
@@ -720,7 +720,7 @@ $(document).ready(function() {
 
     // Button, State Picture, and Input Field for the State of Michigan
     $("#button36").click(function() {
-        if ($("#input36").val() == "Detroit") {
+        if ($("#input36").val() == "Lansing") {
             $.playSound('mp3_capitals/correct');
             swal("Awesome"," ", "success");
             $("#space36").fadeOut();
@@ -738,7 +738,7 @@ $(document).ready(function() {
 
     // Button, State Picture, and Input Field for the State of Illinois
     $("#button37").click(function() {
-        if ($("#input37").val() == "Chicago") {
+        if ($("#input37").val() == "Springfield") {
             $.playSound('mp3_capitals/correct');
             swal("Awesome"," ", "success");
             $("#space37").fadeOut();
