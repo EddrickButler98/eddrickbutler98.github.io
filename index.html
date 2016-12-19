@@ -45,25 +45,7 @@
         <div class="intro-text">
           <h1>Hello, I'm <span class="name">Eddrick C. Butler</span></h1>
           <p>Musician &amp; Beginner Developer</p>
-          <script type="text/javascript">
-function GetClock(){
-var d=new Date();
-var nhour=d.getHours(),nmin=d.getMinutes(),ap;
-if(nhour==0){ap=" AM";nhour=12;}
-else if(nhour<12){ap=" AM";}
-else if(nhour==12){ap=" PM";}
-else if(nhour>12){ap=" PM";nhour-=12;}
-
-if(nmin<=9) nmin="0"+nmin;
-
-document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+ap+"";
-}
-
-window.onload=function(){
-GetClock();
-setInterval(GetClock,1000);
-}
-</script>
+          
 <center style="font-size: 70px;">It's<div id="clockbox" style="font-size: 80px;"></div></center>
           <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
       </div>
@@ -92,6 +74,26 @@ setInterval(GetClock,1000);
     </div>
   </nav>
 </div>
+<center><script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nhour=d.getHours(),nmin=d.getMinutes(),ap;
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+
+document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+ap+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+</center>
 <!-- About Section -->
 <div id="about">
   <div class="container">
@@ -165,8 +167,8 @@ setInterval(GetClock,1000);
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="" title="Family Guy Wiki" rel="home"><img src=""></a>
-                <h4>To Be Announced</h4></div>
+            <div class="hover-bg"> <a href="jokers.html" title="Impractical Jokers Wiki Page" rel="home"><img src="img_impractical_jokers/info.png"></a>
+                <h4>Impractical Jokers Wiki Page</h4></div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
