@@ -22,6 +22,8 @@
     <link rel="stylesheet" type="text/css" href="css_portfolio/prettyPhoto.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+    <script src="sweetalert-master/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="sweetalert-master/dist/sweetalert.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -42,42 +44,69 @@
                         <h1>Hello, I'm <span class="name">Eddrick C. Butler</span></h1>
                         <p>Musician &amp; Beginner Developer</p>
 
-                        <div id="timedial" style="font-size: 50px;"></div>
-                        <center style="font-size: 50px;">It's
-                            <div id="clockbox" style="font-size: 50px;"></div>
+                        <div id="timedial" style="font-size: 50px;"></div><p id="person" style="font-size: 60px;">
+                        <center style="font-size: 50px;">The Time Is
+                            <div id="clockbox" style="font-size: 80px;"></div>
                         </center>
 
                         <script type="text/javascript">
                         window.onload = function() {
+                            GetName();
         GetClock();
         setInterval(GetClock, 1000);
+
+    }
+
+    function GetName() {
+        var name = swal({
+  title: "Please enter your name",
+  text: "Your name here",
+  type: "input",
+  showCancelButton: true,
+  closeOnConfirm: false,
+  inputPlaceholder: "Write something"
+}, function (inputValue) {
+  if (inputValue === false) return false;
+  if (inputValue === "") {
+    swal.showInputError("You need to write something!");
+    return false
+  }
+  if (inputValue != null) {
+        document.getElementById("person").innerHTML = inputValue + "!" ;
+    }
+
+    swal("Thanks!", "You wrote: " + inputValue, "success");
+});
+
     }
 
     function GetClock() {
         var d = new Date();
+
         var nhour = d.getHours(),
             nmin = d.getMinutes(),
             ap;
         if (nhour == 0) {
-          document.getElementById('timedial').innerHTML = '<div> "Good Morning!"</div>';
+          document.getElementById('timedial').innerHTML = 'Good Morning';
             ap = " AM";
             nhour = 12;
         } else if (nhour < 12) {
-          document.getElementById('timedial').innerHTML = '<div> "Good Morning!"</div>';
+          document.getElementById('timedial').innerHTML = 'Good Morning';
             ap = " AM";
         } else if (nhour == 12) {
-          document.getElementById('timedial').innerHTML = '<div> "Good Evening!"</div>';
+          document.getElementById('timedial').innerHTML = 'Good Evening';
             ap = " PM";
         } else if (nhour > 12) {
-         document.getElementById('timedial').innerHTML = 'Good Afternoon!';
+        document.getElementById('timedial').innerHTML = 'Good Afternoon';
             ap = " PM";
             nhour -= 12;
         }
 
-        if (nmin <= 9) nmin = "0" + nmin;
+        if (nmin <= 9) nmin = "0" + nmin 
 
         document.getElementById('clockbox').innerHTML = "" + nhour + ":" + nmin + ap + "";
     }
+
     </script>
                         
                         <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
