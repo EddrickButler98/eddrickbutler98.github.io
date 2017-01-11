@@ -37,22 +37,36 @@
 <body>
     <!-- Header -->
     <header id="header">
-        <div class="intro" style="background-image: img_portfolio/morning.jpg"></div>
 
-            <div class="container">
-                <!-- Container element -->
-                <center>
+       <style>
+.parallax { 
+    /* The image used */
+    background-image: url("http://www.fabuloussavers.com/new_wallpaper/Mississippi_State_freecomputerdesktopwallpaper_1600.jpg");
 
-                    <div class="intro-text">
-                        <h1>Hello, I'm <span class="name">Eddrick C. Butler</span></h1>
-                        <p>Musician &amp; Beginner Developer</p>
+    /* Set a specific height */
+    height: 500px; 
 
-                        <div id="timedial" style="font-size: 50px;"></div><p id="person" style="font-size: 60px;">
-                        <center style="font-size: 50px;">The Time Is
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax" style="color: black;">
+	<center>
+                        <h1 style="color: white">Hello, I'm <span class="name" style="color: white">Eddrick C. Butler</span></h1>
+                        <p style="color: white;">Musician &amp; Beginner Developer</p>
+                        <div id="timedial" style="font-size: 50px; color: #4483FF;"></div>
+                        <h1 id="person" style="font-size: 60px; color: #4483FF;"></h1>
+                        </center>
+                        <center style="font-size: 50px; color: #4483FF;">The Time Is
                             <div id="clockbox" style="font-size: 80px;"></div>
                         </center>
-
-                        <script type="text/javascript">
+ 
+                        <script type="text/javascript" style="float: left;">
                         window.onload = function() {
                             GetName();
         GetClock();
@@ -111,6 +125,9 @@
     }
 
     </script>
+</div>
+
+                        
 
                         <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
             </div>
@@ -146,7 +163,6 @@
         <div class="container">
             <div class="section-title text-center center">
                 <h2>About Me</h2>
-                <hr>
             </div>
             <div class="row">
                 <div class="col-md-12 text-center"><img src="img_portfolio/about-min.jpg" class="img-responsive"></div>
@@ -165,36 +181,36 @@
         <div id="skills" class="text-center">
             <div class="container">
                 <div class="section-title center">
-                    <h2>Skills</h2>
-                    <hr>
+                    <h2 style="color: black;">Skills</h2>
+                    <hr style="color: black;">
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="98"> <span class="percent">98</span> </span>
-                        <h4>HTML</h4>
+                        <h4 style="color: black;">HTML</h4>
                     </div>
                     <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">90</span> </span>
-                        <h4>CSS</h4>
+                        <h4 style="color: black;">CSS</h4>
                     </div>
                     <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
-                        <h4>jQuery</h4>
+                        <h4 style="color: black;">jQuery</h4>
                     </div>
                     <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="100"> <span class="percent">100</span> </span>
-                        <h4>Computer Administration</h4>
+                        <h4 style="color: black;">Computer Administration</h4>
                     </div>
                     <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="100"> <span class="percent">100</span> </span>
-                        <h4>Windows Operting System</h4>
+                        <h4 style="color: black;">Windows Operting System</h4>
                     </div>
                     <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="93"> <span class="percent">93</span> </span>
-                        <h4>Mac Operating System</h4>
+                        <h4 style="color: black;">Mac Operating System</h4>
                     </div>
                     <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="25"> <span class="percent">25</span> </span>
-                        <h4>Python</h4>
+                        <h4 style="color: black;">Python</h4>
                     </div>
                     <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="47"> <span class="percent">47</span> </span>
-                        <h4>JavaScript</h4>
+                        <h4 style="color: black;">JavaScript</h4>
                     </div>
                     <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="100"> <span class="percent">100</span> </span>
-                        <h4>Music</h4>
+                        <h4 style="color: black;">Music</h4>
                     </div>
                 </div>
             </div>
@@ -233,7 +249,11 @@
                             <div class="portfolio-item">
                                 <div class="hover-bg">
                                     <a href="car_guessing.html" title="Car Guessing" rel="home"><img src="img_car_guessing/img_car_guessing.png"></a>
+<<<<<<< HEAD
+                                    <h4>Guess The Car Brand Game</h4></div>
+=======
                                     <h4>Coming Soon... Guess The Car Brand Game</h4></div>
+>>>>>>> dfc73b5cc595868682b4be512f4d68418beb1e76
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3 col-lg-3 web">
@@ -345,7 +365,9 @@
         <script type="text/javascript" src="js_portfolio/contact_me.min.js"></script>
         <script type="text/javascript" src="js_portfolio/main.min.js"></script>
         <script>
-        (function(i, s, o, g, r, a, m) {
+        </script>
+        </div>
+        <!-- (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function() {
                 (i[r].q = i[r].q || []).push(arguments)
@@ -359,7 +381,7 @@
 
         ga('create', 'UA-86017300-1', 'auto');
         ga('send', 'pageview');
-        </script>
+        </script> -->
 
         <!-- Google Code for Remarketing Tag -->
 <!--------------------------------------------------
