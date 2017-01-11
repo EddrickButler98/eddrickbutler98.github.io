@@ -57,11 +57,30 @@ $(document).ready(function() {
     });
 
     $("#button4").click(function() {
-    	if($("#input4").val() == "Dodge") {
+        if($("#input4").val() == "Chrysler") {
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);
+            $("#am4_cropped").fadeOut();
+            $("#am5_cropped").fadeIn(3000);
+            swal({
+                title: "That's Right! ",
+                text: "Chrysler Is Correct",
+                imageUrl: "car_images/vehicle_images_american/chrysler1.png"
+            });
+
+        } else {
+            swal("Nope!, Try Again", 'error')
+            var value = parseInt($(".score").text(), 10) - 1;
+            $(".score").text(value)
+        }
+    });
+
+    $("#button5").click(function() {
+    	if($("#input5").val() == "Dodge") {
     		var value = parseInt($(".score").text(), 10) + 1;
     		$(".score").text(value);
-    		$("am4_cropped").fadeOut();
-    		$("am5_cropped").fadeIn(3000);
+    		$("#am5_cropped").fadeOut();
+    		$("#am6_cropped").fadeIn(3000);
     		swal({
     			title: "That's Right, Now Get Outta 'Dodge' ",
     			text: "Dodge Is Correct",
@@ -69,9 +88,86 @@ $(document).ready(function() {
     		});
 
     	} else {
-    		swal("Nope!, Try Again", "error")
+    		swal("Nope!, Try Again", 'error')
     		var value = parseInt($(".score").text(), 10) - 1;
     		$(".score").text(value)
     	}
-    })
+    });
+
+    $("#button6").click(function() {
+        if($("#input6").val() == "Ford") {
+            var value = parseInt($(".score").text(), 10) + 1;
+            $(".score").text(value);
+            $("#am6_cropped").fadeOut();
+            $("#am7_cropped").fadeIn(3000);
+            swal({
+                title: "Congratulations, Give Henry Ford Some Credit!",
+                text: "Ford Is Correct",
+                imageUrl: "car_images/vehicle_images_american/ford1.png"
+            });
+
+        } else {
+            swal("Nope", 'error')
+            var value = parseInt($(".score").text(), 10) - 1
+            $(".score").text(value)
+        }
+    });
+
+    $("#button7").click(function() {
+        if($("#input7").val() == "Jeep") {
+            var value = parseInt($(".score").text(), 10) + 1
+            $(".score").text(value)
+            $("#am7_cropped").fadeOut();
+            $("#am8_cropped").fadeIn(3000);
+            swal({
+                title: "Excellent!",
+                text: "Jeep Is Correct.....For Jeep Equals Extra Predators",
+                imageUrl: "car_images/vehicle_images_american/jeep1.png"
+            });
+
+        } else {
+           swal("Nope", 'error')
+            var value = parseInt($(".score").text(), 10) - 1
+            $(".score").text(value)
+        }
+    });
+
+    $("#button8").click(function() {
+        if($("#input8").val() == "Lincoln") {
+            var value = parseInt($(".score").text(), 10) + 1
+            $(".score").text(value)
+            $("#am8_cropped").fadeOut();
+            $("#am9_cropped").fadeIn(3000);
+            swal({
+                title: "Excellent!",
+                text: "This Is Abe Lincoln's Favorite Car!",
+                imageUrl: "car_images/vehicle_images_american/lincoln1.png"
+            });
+
+        } else {
+           swal("Nope", 'error')
+            var value = parseInt($(".score").text(), 10) - 1
+            $(".score").text(value)
+        }
+    });
+
+    $("#button9").click(function() {
+        if($("#input9").val() == "Tesla") {
+            var value = parseInt($(".score").text(), 10) + 1
+            $(".score").text(value)
+            $("#am9_cropped").hide();
+            swal({
+                title: "Excellent!",
+                text: "Very Unknown, but rapid-fire fast cars",
+                imageUrl: "car_images/vehicle_images_american/tesla1.png"
+            });
+
+            $("#points").show(5000);
+
+        } else {
+           swal("Nope", 'error')
+            var value = parseInt($(".score").text(), 10) - 1
+            $(".score").text(value)
+        }
+    });
 });
