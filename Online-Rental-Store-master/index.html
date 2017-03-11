@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MiTunes Music Rental Store</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/animations.js"></script>
+</head>
+<nav class="navbar navbar-inverse" style="z-index: 1">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">MiTunes Music Rentals</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Available Rentals <span class="sr-only">(current)</span></a></li>
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div class="jumbotron">
+        <h1><center><img src="img/note.gif" >Welcome to MiTunes Music Rentals!<img src="img/note.gif"></center></h1>
+        <center>
+            <p>The best online music store you could visit is at your disposal.</p>
+        </center>
+        <center>
+            <p>Keep scrolling and browsing and find out what MTMR has to offer.</p>
+        </center>
+        <p>
+            <center><a class="btn btn-primary btn-lg" href="#albums">Click Here To View The Albums</a></center>
+        </p>
+    </div>
+    <div class="container" id="albums">
+        <div class="col-md-3">
+            <img src="img/jackson.jpg" class="img-responsive" id="jackson" data-toggle="modal" data-target="#michael"></a>
+            <span class="label label-success">In-Stock</span>
+            <center>
+                <h4>Invincible</h4>
+                <br>
+            </center>
+        </div>
+        <div class="col-md-3 col-xs-4">
+            <img src="img/khaled.jpg" class="img-responsive" id="djkhal" data-toggle="modal" data-target="#dj"></a>
+            <span class="label label-success">In-Stock</span>
+            <center>
+                <h4>Major Key</h4>
+                <br>
+            </center>
+        </div>
+        <div class="col-md-3 col-xs-4">
+            <img src="img/shakur.jpg" class="img-responsive" id="tupacshak" data-toggle="modal" data-target="#tupac"></a>
+            <span class="label label-success">In-Stock</span>
+            <center>
+                <h4>Still I Rise</h4>
+                <br>
+            </center>
+        </div>
+        <div class="col-md-3 col-xs-4">
+            <img src="img/thicke.png" class="img-responsive" id="robinthi" data-toggle="modal" data-target="#robin"></a>
+            <span class="label label-success">In-Stock</span>
+            <center>
+                <h4>Blurred Lines</h4>
+                <br>
+            </center>
+        </div>
+        <div class="col-md-3 col-xs-4">
+            <img src="img/drake.jpg" class="img-responsive" id="drakemake" data-toggle="modal" data-target="#drake"></a>
+            <span class="label label-success">In-Stock</span>
+            <center>
+                <h4>More Life</h4>
+            </center>
+        </div>
+        <div class="col-md-3 col-xs-4">
+            <a href="#blank"><img src="img/blank_disc.png" class="img-responsive"></a>
+            <span class="label label-danger">Not Available</span>
+            <center>
+                <h4>Coming Soon</h4>
+            </center>
+        </div>
+        <div class="col-md-3 col-xs-4">
+            <a href="#blank"><img src="img/blank_disc.png" class="img-responsive"></a>
+            <span class="label label-danger">Not Available</span>
+            <center>
+                <h4>Coming Soon</h4>
+            </center>
+        </div>
+        <div class="col-md-3 col-xs-4">
+            <a href="#blank"><img src="img/blank_disc.png" class="img-responsive"></a>
+            <span class="label label-danger">Not Available</span>
+            <center>
+                <h4>Coming Soon</h4>
+            </center>
+        </div>
+    </div>
+    </div>
+    <!--    Michael Jackson Rent Modal-->
+    <!-- Modal -->
+    <div id="michael" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center>
+                        <h4 class="modal-title">Renting...</h4></center>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <div class="col-md-5 col-xs-4"> <img src="img/jackson.jpg" class="img-responsive">
+                        </div>
+                    </center>
+                    <h2>Invincible</h2>
+                    <p2>Michael Jackson</p2>
+                    <br>
+                    <p4>Released in 2001 </p4>
+                    <br>
+                    <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span> </p4>
+                    <p>Price: $10.00</p>
+                    <p>Sales Tax: $0.07</p>
+                    <center>
+                        <a href="#michael_j">
+                            <a href="checkout.html">
+                                <button class="btn btn-primary">Rent &amp; Calculate</button>
+                            </a>
+                        </a>
+                        <button class="btn btn-default" id="sample_a_mj">Sample A Song From This Album</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- DJ Khaled Rent Modal -->
+    <div id="dj" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center>
+                        <h4 class="modal-title">Renting...</h4></center>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <div class="col-md-5 col-xs-4"><img src="img/khaled.jpg" class="img-responsive">
+                        </div>
+                    </center>
+                    <h2>Major Key</h2>
+                    <p2>DJ Khaled</p2>
+                    <br>
+                    <p4>Released in 2016</p4>
+                    <br>
+                    <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span></p4>
+                    <p>Price: $25.00</p>
+                    <p>Sales Tax: $0.07</p>
+                    <center>
+                        <a href="#dj_k">
+                            <a href="checkout.html/#djkhal">
+                                <button class="btn btn-primary">Rent &amp; Calculate</button>
+                            </a>
+                        </a>
+                        <button class="btn btn-default" id="sample_a_dj">Sample A Song From This Album</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Tupac Rent Modal -->
+    <div id="tupac" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center>
+                        <h4 class="modal-title">Renting...</h4></center>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <div class="col-md-5 col-xs-4"><img src="img/shakur.jpg" class="img-responsive">
+                        </div>
+                    </center>
+                    <h2>Still I Rise</h2>
+                    <p2>Tupac Shakur</p2>
+                    <br>
+                    <p4>Released in 1999</p4>
+                    <br>
+                    <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span></p4>
+                    <p>Price: $10.00</p>
+                    <p>Sales Tax: $0.07</p>
+                    <center>
+                        <a href="#tupac_s">
+                            <a href="checkout.html/#tupacshak">
+                                <button class="btn btn-primary">Rent &amp; Calculate</button>
+                            </a>
+                        </a>
+                        <button class="btn btn-default" id="sample_pac">Sample A Song From This Album</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Robin Thicke Rent Mobal -->
+    <div id="robin" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center>
+                        <h4 class="modal-title">Renting...</h4></center>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <div class="col-md-5 col-xs-4"><img src="img/thicke.png" class="img-responsive">
+                        </div>
+                    </center>
+                    <h2>Blurred Lines</h2>
+                    <p2>Robin Thicke</p2>
+                    <br>
+                    <p4>Released in 2016</p4>
+                    <br>
+                    <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span></p4>
+                    <p>Price: $20.00</p>
+                    <p>Sales Tax: $0.07</p>
+                    <center>
+                        <a href="#robin_t">
+                            <a href="checkout.html/#robinthi">
+                                <button class="btn btn-primary">Rent &amp; Calculate</button>
+                            </a>
+                        </a>
+                        <button class="btn btn-default" id="sample_robin">Sample A Song From This Album</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Drake Rent Modal -->
+    <div id="drake" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center>
+                        <h4 class="modal-title">Renting...</h4></center>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <div class="col-md-5 col-xs-4"><img src="img/drake.jpg" class="img-responsive">
+                        </div>
+                    </center>
+                    <h2>More Life</h2>
+                    <p2>Drake</p2>
+                    <br>
+                    <p4>Released in 2017</p4>
+                    <br>
+                    <p4>Most Rated Stars: <span>&#9734;&#9734;&#9734;&#9734;&#9734;</span></p4>
+                    <p>Price: $25.00</p>
+                    <p>Sales Tax: $0.07</p>
+                    <center>
+                        <a href="#drake_?">
+                            <a href="checkout.html/#drakemake">
+                                <button class="btn btn-primary">Rent &amp; Calculate</button>
+                            </a>
+                        </a>
+                        <button class="btn btn-default" id="sample_drake">Sample A Song From This Album</button>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

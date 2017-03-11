@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculations</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/animations.js"></script>
+
+    <body>
+        <div class="jumbotron" style="background= blue;">
+            <h1 class="display-3"><center>Quantity and Calculations</center></h1>
+            <p class="lead">
+                <center>Our version of the Purchases Page
+                    <br> Go ahead, check your price!</center>
+            </p>
+        </div>
+        <center>
+            <div id="mike_jackson">
+                <FORM Name="myform">
+                    <p>Which Album Did You Choose?</p>
+                    <select name="chosen_album" onchange="calculatePrice()" id="chosen_album">
+                        <option value="10.00">Invincible - Michael Jackson - $10.00<img src="img/jackson.jpg"></option>
+                    </select>
+                    <br>
+                    <br>
+                    <SELECT NAME="num_of_days" onchange="calculatePrice()" id="number_days">
+                        <OPTION value="0">Default - 1</OPTION>
+                        <OPTION value="5">10 more days - $5.00</OPTION>
+                        <OPTION value="10">20 more days - $10.00</OPTION>
+                        <OPTION value="15">30 more days - $15.00</OPTION>
+                    </SELECT>
+                    <br>
+                    <p>Ten days is set for the default amount</p>
+                    <SELECT NAME="num_of_albums" onChange="calculatePrice()" id="number_albums">
+                        <OPTION value="0">Default - 1</OPTION>
+                        <OPTION value="2.07">2 Albums - $2.07</OPTION>
+                        <OPTION value="4.07">3 Albums - $4.07</OPTION>
+                        <OPTION value="6.07">4 Albums - $6.07</OPTION>
+                        <OPTION value="8.07">5 Albums - $8.07</OPTION>
+                        <OPTION value="10.07">6 Albums - $10.07</OPTION>
+                        <OPTION value="12.07">7 Albums - $12.07</OPTION>
+                        <OPTION value="14.07">8 Albums - $14.07</OPTION>
+                        <OPTION value="16.07">9 Albums - $16.07</OPTION>
+                        <OPTION value="18.07">10 Albums - $18.07</OPTION>
+                    </SELECT>
+                    <br>
+                    <p>One Album Is set for the default album</p>
+                </FORM>
+                Total Price: $
+                <INPUT type="text" id="PicExtPrice" Size=4>
+            </div>
+            <div id="dj_khal">
+            </div>
+            <div id="tupac_shak">
+            </div>
+            <div id="robin_thi">
+            </div>
+            <div id="drake_make">
+            </div>
+        </center>
+    </body>
+
+</html>
