@@ -1,0 +1,30 @@
+body {
+    background-color: lightgrey
+}
+
+.navbar {
+    border-radius: 0;
+    z-index: 1;
+    position: fixed;
+}
+
+.navbar-brand {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.navbar-brand:active {
+    color: blue;
+}
+
+.google_font {
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+}
+
+#google {
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
