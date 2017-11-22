@@ -51,7 +51,7 @@
 
         <!-- Container element -->
         <video autoplay loop id="video-background" muted plays-inline>
-            <source src="img_portfolio/ink.mp4"
+            <source src="img_portfolio/ink2.mp4"
                 type="video/mp4">
         </video>
         <div class="parallax" id="parallax12">
@@ -105,16 +105,17 @@
                         ap;
                     if (nhour == 0) {
                         document.getElementById('timedial').innerHTML = 'Good Morning!';
-                        
+                        document.getElementById('video-background').style.backgroundImage = "url('https://www.youtube.com/embed/D1ymrodbojM')";
                         ap = " AM";
                         nhour = 12;
                     } else if (nhour < 12) {
                         document.getElementById('timedial').innerHTML = 'Good Morning!';
-                        
+                        document.getElementById('video-background').style.backgroundImage = "url('https://www.youtube.com/embed/D1ymrodbojM')";
                         ap = " AM";
                     } else if (nhour == 12) {
                         document.getElementById('timedial').innerHTML = 'Good Afternoon!';
-                        
+                        document.getElementById("parallax12").style.backgroundImage = "url('http://www.commentsyard.com/wp-content/uploads/2015/03/Good-Afternoon-With-Hot-Afternoon.jpg')";
+
                         ap = " PM";
                     } else if (nhour > 12) {
                         document.getElementById('timedial').innerHTML = 'Good Evening!';
