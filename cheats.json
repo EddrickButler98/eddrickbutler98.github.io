@@ -2,7 +2,7 @@
     "Cheats": [
         {
             "Cheat_Name": "Drunk Mode",
-            "Description": "This cheat makes the played character drunk and less controllable",
+            "Description": "Need we say more?",
             "Name_Behind_The_Number": "L-I-Q-U-O-R",
             "Systems": {
                 "XboxOneand360": "Y, RIGHT, RIGHT, LEFT, RIGHT, X, B, LEFT",
@@ -12,37 +12,37 @@
             "Phone Number_Cheat": "1-999-547-861"
         },
         {
+            "Cheat_Name": "Explosive Ammo Rounds",
+            "Description": "Yes, your bullets will EXPLODE!",
+            "Name_Behind_The_Number": "H-O-T-H-A-N-D-S",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "",
+                "PS4": ""
+            },
+            "Phone_Number_Cheat": "1-999-4684-2637"
+        },
+        {
+            "Cheat_Name": "Explosive Melee Attacks",
+            "Description":"Like the above, but without weapons",
+            "Name_Behind_The_Number": "H-I-G-H-E-X",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "",
+                "PS4": ""
+            },
+            "Phone_Number_Cheat": "1-999-444-439"
+        },
+        {
             "Cheat_Name": "Fast Run",
-            "Description": "This cheat allows the character to run faster",
-            "Name_Behind_The_Number": "",
+            "Description": "Let's go Flash!",
+            "Name_Behind_The_Number": "C-A-T-C-H-M-E",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "",
                 "PS4": ""
             },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description":"",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-228-8463"
         },
         {
             "Cheat_Name": "",
