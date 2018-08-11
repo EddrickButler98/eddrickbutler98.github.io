@@ -6,8 +6,8 @@
             "Name_Behind_The_Number": "L-I-Q-U-O-R",
             "Systems": {
                 "XboxOneand360": "Y, RIGHT, RIGHT, LEFT, RIGHT, X, B, LEFT",
-                "PS3":"",
-                "PS4": ""
+                "PS3": "TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, LEFT",
+                "PS4": "TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, LEFT"
             },
             "Phone Number_Cheat": "1-999-547-861"
         },
@@ -17,8 +17,8 @@
             "Name_Behind_The_Number": "H-O-T-H-A-N-D-S",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
+                "PS3": "RIGHT, SQUARE, X, LEFT, R1, R2, LEFT, RIGHT, RIGHT, L1, L1, L1",
+                "PS4": "RIGHT, SQUARE, X, LEFT, R1, R2, LEFT, RIGHT, RIGHT, L1, L1, L1"
             },
             "Phone_Number_Cheat": "1-999-4684-2637"
         },
@@ -28,8 +28,8 @@
             "Name_Behind_The_Number": "H-I-G-H-E-X",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
+                "PS3": "RIGHT, LEFT, X, TRIANGLE, R1, CIRCLE, CIRCLE, CIRCLE, L2",
+                "PS4": "RIGHT, LEFT, X, TRIANGLE, R1, CIRCLE, CIRCLE, CIRCLE, L2"
             },
             "Phone_Number_Cheat": "1-999-444-439"
         },
@@ -39,8 +39,8 @@
             "Name_Behind_The_Number": "C-A-T-C-H-M-E",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
+                "PS3": "TRIANGLE, LEFT, RIGHT, RIGHT, L2, L1, SQUARE",
+                "PS4": "TRIANGLE, LEFT, RIGHT, RIGHT, L2, L1, SQUARE"
             },
             "Phone_Number_Cheat": "1-999-228-8463"
         },
@@ -50,8 +50,8 @@
             "Name_Behind_The_Number": "G-O-T-G-I-L-L-S",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
+                "PS3": "LEFT, LEFT, L1, RIGHT, RIGHT, R2, LEFT, L2, RIGHT",
+                "PS4": "LEFT, LEFT, L1, RIGHT, RIGHT, R2, LEFT, L2, RIGHT"
             },
             "Phone_Number_Cheat": "1-999-468-44557"
         },
@@ -61,19 +61,19 @@
             "Name_Behind_The_Number": "I-N-C-E-N-D-I-A-R-Y",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
+                "PS3": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, RIGHT, L1, L1",
+                "PS4": "L1, R1, SQUARE, R1, LEFT, R2, R1, LEFT, SQUARE, RIGHT, L1, L1"
             },
             "Phone_Number_Cheat": "1-999-462-363-4279"
         },
         {
-            "Cheat_Name": "Max Health & Ammo",
+            "Cheat_Name": "Max Health & Armor",
             "Description": "No One Will Mess With You",
             "Name_Behind_The_Number": "T-O-O-L-U-P",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
+                "PS3": "CIRCLE, L1, TRIANGLE, R2, X, SQUARE, CIRCLE, RIGHT, SQUARE, L1, L1, L1",
+                "PS4": "CIRCLE, L1, TRIANGLE, R2, X, SQUARE, CIRCLE, RIGHT, SQUARE, L1, L1, L1"
             },
             "Phone_Number_Cheat": "1-999-8665-87"
         },
@@ -83,21 +83,263 @@
             "Name_Behind_The_Number": "P-A-I-N-K-I-L-L-E-R",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
+                "PS3": "RIGHT, X, RIGHT, LEFT, RIGHT, R1, RIGHT, LEFT, X, TRIANGLE",
+                "PS4": "RIGHT, X, RIGHT, LEFT, RIGHT, R1, RIGHT, LEFT, X, TRIANGLE"
             },
             "Phone_Number_Cheat": "1-999-72-654-5537"
         },
         {
-            "Cheat_Name": "",
+            "Cheat_Name": "Recharge Ability",
             "Description": "",
             "Name_Behind_The_Number": "",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
+                "PS3": "X, X, SQUARE, R1, L1, X, RIGHT, LEFT, X",
+                "PS4": "X, X, SQUARE, R1, L1, X, RIGHT, LEFT, X"
             },
             "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Skyfall",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT, L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT",
+                "PS4": "L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT, L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Super Jump",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "LEFT, LEFT, TRIANGLE, TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, R1, R2",
+                "PS4": "LEFT, LEFT, TRIANGLE, TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, R1, R2"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Lower Wanted Level",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT",
+                "PS4": "R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Raise Wanted Level",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "R1, R1, CIRCLE, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT",
+                "PS4": "R1, R1, CIRCLE, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Slow Motion Aim",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "SQUARE, L2, R1, TRIANGLE, LEFT, SQUARE, L2, RIGHT, X",
+                "PS4": "SQUARE, L2, R1, TRIANGLE, LEFT, SQUARE, L2, RIGHT, X"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Parachute",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "LEFT, RIGHT, L1, L2, R1, R2, R2, LEFT, LEFT, RIGHT, L1",
+                "PS4": "LEFT, RIGHT, L1, L2, R1, R2, R2, LEFT, LEFT, RIGHT, L1"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Weapons",
+            "Description": "",
+            "Name_Behind_The_Number": "T-O-O-L-U-P",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "TRIANGLE, R2, LEFT, L1, X, RIGHT, TRIANGLE, DOWN, SQUARE, L1, L1, L1",
+                "PS4": "TRIANGLE, R2, LEFT, L1, X, RIGHT, TRIANGLE, DOWN, SQUARE, L1, L1, L1"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Change Weather",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "R2, X, L1, L1, L2, L2, L2, SQUARE",
+                "PS4": "R2, X, L1, L1, L2, L2, L2, SQUARE"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Director Mode",
+            "Description": "",
+            "Name_Behind_The_Number": "J-R-T-A-L-E-N-T",
+            "Systems": {
+                "XboxOneand360": "NO ASSIGNED KEYS",
+                "PS3": "NO ASSIGNED KEYS",
+                "PS4": "NO ASSIGNED KEYS"
+            },
+            "Phone_Number_Cheat": "1-999-57-825368"
+        },
+        {
+            "Cheat_Name": "Moon Gravity",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "LEFT, LEFT, L1, R1, L1, RIGHT, LEFT, L1, LEFT",
+                "PS4": "LEFT, LEFT, L1, R1, L1, RIGHT, LEFT, L1, LEFT"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Slippery Cars",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "TRIANGLE, R1, R1, LEFT, R1, L1, R2, L1",
+                "PS4": "TRIANGLE, R1, R1, LEFT, R1, L1, R2, L1"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Slow Motion",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "TRIANGLE, LEFT, RIGHT, RIGHT, SQUARE, R2, R1",
+                "PS4": "TRIANGLE, LEFT, RIGHT, RIGHT, SQUARE, R2, R1"
+            },
+            "Phone_Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn BMX",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, TRIANGLE, R1, R2",
+                "PS4": "LEFT, LEFT, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, CIRCLE, TRIANGLE, R1, R2"
+            },
+            "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn Buzzard",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "CIRCLE, CIRCLE, L1, CIRCLE, CIRCLE, CIRCLE, L1, L2, R1, TRIANGLE, CIRCLE, TRIANGLE",
+                "PS4": "CIRCLE, CIRCLE, L1, CIRCLE, CIRCLE, CIRCLE, L1, L2, R1, TRIANGLE, CIRCLE, TRIANGLE"
+            },
+            "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn Caddy",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "CIRCLE, L1, LEFT, R1, L2, X, R1, L1, CIRCLE, X",
+                "PS4": "CIRCLE, L1, LEFT, R1, L2, X, R1, L1, CIRCLE, X"
+            },
+            "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn Comet",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "R1, CRICLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1",
+                "PS4": "R1, CRICLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1"
+            },
+            "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn Duster",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "RIGHT, LEFT, R1, R1, R1, LEFT, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1",
+                "PS4": "RIGHT, LEFT, R1, R1, R1, LEFT, TRIANGLE, TRIANGLE, X, CIRCLE, L1, L1"
+            },
+            "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn Limo",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "R2, RIGHT, L2, LEFT, LEFT, R1, L1, CIRCLE, RIGHT",
+                "PS4": "R2, RIGHT, L2, LEFT, LEFT, R1, L1, CIRCLE, RIGHT"
+            },
+            "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn PCJ-600",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "R1, RIGHT, LEFT, RIGHT, R2, LEFT, RIGHT, SWUARE, RIGHT, L2, L1, L1",
+                "PS4": "R1, RIGHT, LEFT, RIGHT, R2, LEFT, RIGHT, SWUARE, RIGHT, L2, L1, L1"
+            },
+            "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn Rapid GT",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "R2, L1, CIRCLE, RIGHT, L1, R1, RIGHT, LEFT, CIRCLE, R2",
+                "PS4": "R2, L1, CIRCLE, RIGHT, L1, R1, RIGHT, LEFT, CIRCLE, R2"
+            },
+            "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn Sanchez",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "CIRCLE, X, L1, CIRCLE, CIRCLE, L1, CIRCLE, R1, R2, L2, L1, L1",
+                "PS4": "CIRCLE, X, L1, CIRCLE, CIRCLE, L1, CIRCLE, R1, R2, L2, L1, L1"
+            },
+            "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn Stunt Plane",
+            "Description": "",
+            "Name_Behind_The_Number": "",
+            "Systems": {
+                "XboxOneand360": "",
+                "PS3": "CIRCLE, RIGHT, L1, L2, LEFT, R1, L1, L1, LEFT, LEFT, X, TRIANGLE",
+                "PS4": "CIRCLE, RIGHT, L1, L2, LEFT, R1, L1, L1, LEFT, LEFT, X, TRIANGLE"
+            },
+            "Phone Number_Cheat": ""
         },
         {
             "Cheat_Name": "",
@@ -108,128 +350,7 @@
                 "PS3": "",
                 "PS4": ""
             },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
-        },
-        {
-            "Cheat_Name": "",
-            "Description": "",
-            "Name_Behind_The_Number": "",
-            "Systems": {
-                "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
-            },
-            "Phone_Number_Cheat": ""
+            "Phone Number_Cheat": ""
         }
         
     ]
