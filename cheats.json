@@ -2,7 +2,7 @@
     "Cheats": [
         {
             "Cheat_Name": "Drunk Mode",
-            "Description": "Need we say more?",
+            "Description": "Warning: Do NOT Attempt to Operate Heavy Machinery",
             "Name_Behind_The_Number": "L-I-Q-U-O-R",
             "Systems": {
                 "XboxOneand360": "Y, RIGHT, RIGHT, LEFT, RIGHT, X, B, LEFT",
@@ -13,7 +13,7 @@
         },
         {
             "Cheat_Name": "Explosive Ammo Rounds",
-            "Description": "Yes, your bullets will EXPLODE!",
+            "Description": "Also know as 'Bang Bang'",
             "Name_Behind_The_Number": "H-O-T-H-A-N-D-S",
             "Systems": {
                 "XboxOneand360": "",
@@ -24,7 +24,7 @@
         },
         {
             "Cheat_Name": "Explosive Melee Attacks",
-            "Description":"Like the above, but without weapons",
+            "Description":"YOur punches and kicks are literally explosive!",
             "Name_Behind_The_Number": "H-I-G-H-E-X",
             "Systems": {
                 "XboxOneand360": "",
@@ -35,7 +35,7 @@
         },
         {
             "Cheat_Name": "Fast Run",
-            "Description": "Let's go Flash!",
+            "Description": "Increases your maximum sprint speed",
             "Name_Behind_The_Number": "C-A-T-C-H-M-E",
             "Systems": {
                 "XboxOneand360": "",
@@ -46,7 +46,7 @@
         },
         {
             "Cheat_Name": "Fast Swim",
-            "Description": "And in the water",
+            "Description": "Increases your maximum swimming speed",
             "Name_Behind_The_Number": "G-O-T-G-I-L-L-S",
             "Systems": {
                 "XboxOneand360": "",
@@ -57,7 +57,7 @@
         },
         {
             "Cheat_Name": "Flaming Bullets",
-            "Description": "Feel the burn of my hot lead",
+            "Description": "YOur bullets will set things on fire upon impact.",
             "Name_Behind_The_Number": "I-N-C-E-N-D-I-A-R-Y",
             "Systems": {
                 "XboxOneand360": "",
@@ -79,7 +79,7 @@
         },
         {
             "Cheat_Name": "Invincibility",
-            "Description": "Ain't Nothing Gonna Stop You Now",
+            "Description": "Works for 5 minutes before you need to re-enter the code",
             "Name_Behind_The_Number": "P-A-I-N-K-I-L-L-E-R",
             "Systems": {
                 "XboxOneand360": "",
@@ -90,58 +90,58 @@
         },
         {
             "Cheat_Name": "Recharge Ability",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Recharges the special ability of your character",
+            "Name_Behind_The_Number": "P-O-W-E-R-U-P",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "X, X, SQUARE, R1, L1, X, RIGHT, LEFT, X",
                 "PS4": "X, X, SQUARE, R1, L1, X, RIGHT, LEFT, X"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-769-3787"
         },
         {
             "Cheat_Name": "Skyfall",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Spawns you mid-air for a skydiving free fall!",
+            "Name_Behind_The_Number": "S-K-Y-F-A-L-L",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT, L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT",
                 "PS4": "L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT, L1, L2, R1, R2, LEFT, RIGHT, LEFT, RIGHT"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-759-3255"
         },
         {
             "Cheat_Name": "Super Jump",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Leap tall buildings in a single bound. Hold for higher jumps.",
+            "Name_Behind_The_Number": "H-O-P-T-O-I-T",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "LEFT, LEFT, TRIANGLE, TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, R1, R2",
                 "PS4": "LEFT, LEFT, TRIANGLE, TRIANGLE, RIGHT, RIGHT, LEFT, RIGHT, SQUARE, R1, R2"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-467-86-48"
         },
         {
             "Cheat_Name": "Lower Wanted Level",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Takes one star off of your wanted level",
+            "Name_Behind_The_Number": "L-A-W-Y-E-R-U-P",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT",
                 "PS4": "R1, R1, CIRCLE, R2, RIGHT, LEFT, RIGHT, LEFT, RIGHT, LEFT"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-5299-3787"
         },
         {
             "Cheat_Name": "Raise Wanted Level",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Add one star to your wanted level",
+            "Name_Behind_The_Number": "F-U-G-I-T-I-V-E",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "R1, R1, CIRCLE, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT",
                 "PS4": "R1, R1, CIRCLE, R2, LEFT, RIGHT, LEFT, RIGHT, LEFT, RIGHT"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-3844-8483"
         },
         {
             "Cheat_Name": "Slow Motion Aim",
@@ -156,40 +156,40 @@
         },
         {
             "Cheat_Name": "Parachute",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Gives you a parachute.",
+            "Name_Behind_The_Number": "S-K-Y-D-I-V-E",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "LEFT, RIGHT, L1, L2, R1, R2, R2, LEFT, LEFT, RIGHT, L1",
                 "PS4": "LEFT, RIGHT, L1, L2, R1, R2, R2, LEFT, LEFT, RIGHT, L1"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-759-3483"
         },
         {
             "Cheat_Name": "Weapons",
-            "Description": "",
+            "Description": "Gives you all the weapons along with ammo!",
             "Name_Behind_The_Number": "T-O-O-L-U-P",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "TRIANGLE, R2, LEFT, L1, X, RIGHT, TRIANGLE, DOWN, SQUARE, L1, L1, L1",
                 "PS4": "TRIANGLE, R2, LEFT, L1, X, RIGHT, TRIANGLE, DOWN, SQUARE, L1, L1, L1"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-8665-87"
         },
         {
             "Cheat_Name": "Change Weather",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Rotates through sunny, clear, cloudy, smoggy, overcast, rainy, thunder, clearing, and snowing.",
+            "Name_Behind_The_Number": "M-A-K-E-I-T-R-A-I-N",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "R2, X, L1, L1, L2, L2, L2, SQUARE",
                 "PS4": "R2, X, L1, L1, L2, L2, L2, SQUARE"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-625-348-7246"
         },
         {
             "Cheat_Name": "Director Mode",
-            "Description": "",
+            "Description": "Enables you to select and play the game as any character or NPC.",
             "Name_Behind_The_Number": "J-R-T-A-L-E-N-T",
             "Systems": {
                 "XboxOneand360": "NO ASSIGNED KEYS",
@@ -200,36 +200,36 @@
         },
         {
             "Cheat_Name": "Moon Gravity",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Enter a vehicle after activating this cheat to experience less gravity.",
+            "Name_Behind_The_Number": "F-L-O-A-T-E-R",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "LEFT, LEFT, L1, R1, L1, RIGHT, LEFT, L1, LEFT",
                 "PS4": "LEFT, LEFT, L1, R1, L1, RIGHT, LEFT, L1, LEFT"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-356-2837"
         },
         {
             "Cheat_Name": "Slippery Cars",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Also known as drifting and/or slidey cars.",
+            "Name_Behind_The_Number": "S-N-O-W-D-A-Y",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "TRIANGLE, R1, R1, LEFT, R1, L1, R2, L1",
                 "PS4": "TRIANGLE, R1, R1, LEFT, R1, L1, R2, L1"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-766-9329"
         },
         {
             "Cheat_Name": "Slow Motion",
-            "Description": "",
-            "Name_Behind_The_Number": "",
+            "Description": "Enables you to slow down gameplay.",
+            "Name_Behind_The_Number": "S-L-O-W-M-O",
             "Systems": {
                 "XboxOneand360": "",
                 "PS3": "TRIANGLE, LEFT, RIGHT, RIGHT, SQUARE, R2, R1",
                 "PS4": "TRIANGLE, LEFT, RIGHT, RIGHT, SQUARE, R2, R1"
             },
-            "Phone_Number_Cheat": ""
+            "Phone_Number_Cheat": "1-999-756-966"
         },
         {
             "Cheat_Name": "Spawn BMX",
