@@ -270,8 +270,8 @@
             "Name_Behind_The_Number": "",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "R1, CRICLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1",
-                "PS4": "R1, CRICLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1"
+                "PS3": "R1, CIRCLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1",
+                "PS4": "R1, CIRCLE, R2, RIGHT, L1, L2, X, X, SQUARE, R1"
             },
             "Phone Number_Cheat": ""
         },
@@ -303,8 +303,8 @@
             "Name_Behind_The_Number": "",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "R1, RIGHT, LEFT, RIGHT, R2, LEFT, RIGHT, SWUARE, RIGHT, L2, L1, L1",
-                "PS4": "R1, RIGHT, LEFT, RIGHT, R2, LEFT, RIGHT, SWUARE, RIGHT, L2, L1, L1"
+                "PS3": "R1, RIGHT, LEFT, RIGHT, R2, LEFT, RIGHT, SQUARE, RIGHT, L2, L1, L1",
+                "PS4": "R1, RIGHT, LEFT, RIGHT, R2, LEFT, RIGHT, SQUARE, RIGHT, L2, L1, L1"
             },
             "Phone Number_Cheat": ""
         },
@@ -342,15 +342,48 @@
             "Phone Number_Cheat": ""
         },
         {
-            "Cheat_Name": "",
+            "Cheat_Name": "Spawn Trashmaster",
             "Description": "",
             "Name_Behind_The_Number": "",
             "Systems": {
                 "XboxOneand360": "",
-                "PS3": "",
-                "PS4": ""
+                "PS3": "CIRCLE, R1, CIRCLE, R1, LEFT, LEFT, R1, L1, CIRCLE, RIGHT",
+                "PS4": "CIRCLE, R1, CIRCLE, R1, LEFT, LEFT, R1, L1, CIRCLE, RIGHT"
             },
             "Phone Number_Cheat": ""
+        },
+        {
+            "Cheat_Name": "Spawn Duke O'Death",
+            "Description": "",
+            "Name_Behind_The_Number": "D-E-A-T-H-C-A-R",
+            "Systems": {
+                "XboxOneand360": "NO ASSIGNED KEYS/BUTTONS",
+                "PS3": "NO ASSIGNED KEYS/BUTTONS",
+                "PS4": "NO ASSIGNED KEYS/BUTTONS"
+            },
+            "Phone Number_Cheat": "1-999-3328-4227"
+        },
+        {
+            "Cheat_Name": "Spawn Kraken Sub",
+            "Description": "",
+            "Name_Behind_The_Number": "B-U-B-B-L-E-S",
+            "Systems": {
+                "XboxOneand360": "NO ASSIGNED KEYS/BUTTONS",
+                "PS3": "NO ASSIGNED KEYS",
+                "PS4": "NO ASSIGNED KEYS"
+            },
+            "Phone Number_Cheat": "1-999-282-2537"
+        },
+        {
+            "Cheat_Name": "Spawn Dodo Airplane",
+            "Description": "",
+            "Name_Behind_The_Number": "E-X-T-I-N-C-T",
+            "Systems": {
+                "XboxOneand360": "NO ASSIGNED KEYS/BUTTONS",
+                "PS3": "NO ASSIGNED KEYS/BUTTONS",
+                "PS4": "NO ASSIGNED KEYS/BUTTONS"
+            },
+            "Phone Number_Cheat": "1-999-398-4628"
         }
         
     ]
